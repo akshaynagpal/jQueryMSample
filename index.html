@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="themes/myTheme.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+#footer1
+{
+	width:100%;
+	bottom: 0;
+}
+</style>
+<title>JQM HOME</title>
+
+</head>
+
+<body>
+
+<div data-role="page" id="home">  <!--page div starts-->
+
+<div data-role="panel" id="Lpanel">
+<h1>Left Panel</h1>
+</div>
+
+<div data-role="panel" id="Rpanel" data-position="right">
+<h1>Right Panel </h1>
+</div>
+
+<div data-role="header">
+<a href="#Lpanel" class="ui-btn ui-icon-carat-r ui-btn-icon-left" >Open</a>
+<h1> Welcome to JQM</h1>
+<a href="#Rpanel" class="ui-btn ui-icon-carat-l ui-btn-icon-left">Open</a>
+<div data-role="navbar" id="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#page1" data-transition="slide">Page One</a></li>
+<li><a href="#page2" data-transition="slide">Page Two</a></li>
+</ul>
+</div> <!--Menu div ends-->
+</div> <!--Header div ends-->
+
+<div data-role="main" id="homemain">
+You are on main page
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+
+<div data-role="footer" class="footer1" id="footer1">
+    <h1>Footer Text</h1>
+  </div>
+  
+</div> <!--Page div ends-->
+
+
+<div data-role="page" id="page1">
+<div data-role="header">
+<a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-left">Button</a>
+<h1> Welcome to JQM</h1>
+<a href="#" class="ui-btn ui-icon-carat-l ui-btn-icon-left">Button</a>
+<div data-role="navbar" id="menu">
+<ul>
+<li><a href="#home" data-transition="slide" data-direction="reverse">Home</a></li>
+<li><a href="#">Page One</a></li>
+<li><a href="#page2" data-transition="slide">Page Two</a></li>
+</ul>
+</div> <!--Menu div ends-->
+</div> <!--Header div ends-->
+<div data-role="main" id="1main">
+You are on page 1.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+<div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> <!--Page div ends-->
+
+
+<div data-role="page" id="page2">
+<div data-role="header">
+<a href="#" class="ui-btn ui-icon-carat-r ui-btn-icon-left">Button</a>
+<h1> Welcome to JQM</h1>
+<a href="#" class="ui-btn ui-icon-carat-l ui-btn-icon-left">Button</a>
+<div data-role="navbar" id="menu">
+<ul>
+<li><a href="#home" data-transition="slide" data-direction="reverse">Home</a></li>
+<li><a href="#page1" data-transition="slide" data-direction="reverse">Page One</a></li>
+<li><a href="#">Page Two</a></li>
+</ul>
+</div> <!--Menu div ends-->
+</div> <!--Header div ends-->
+<div data-role="main" id="2main">
+You are on page 2.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>
+<div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> <!--Page div ends-->
+
+<!-- <div data-role="page" id="LPpage"> -->
+
+
+<!--
+
+-->
+
+<!--</div> -->
+
+</body>
+</html>
